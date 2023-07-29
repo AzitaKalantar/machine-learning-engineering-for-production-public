@@ -4,7 +4,7 @@ from typing import List
 from fastapi import FastAPI
 from pydantic import BaseModel, conlist
 
-# Hi, I'm putting this commet to triger the action and run a job after my push in github
+# Hi, I'm putting this commet to triger the action and run a job after my push in github.
 
 
 app = FastAPI(title="Predicting Wine Class with batching")
