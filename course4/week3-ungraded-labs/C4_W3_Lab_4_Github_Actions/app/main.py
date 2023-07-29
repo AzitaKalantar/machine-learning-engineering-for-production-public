@@ -10,6 +10,7 @@ warnings.simplefilter("error", InconsistentVersionWarning)
 try:
     # Open classifier in global scope
     with open("models/wine.pkl", "rb") as file:
+        global clf
         clf = pickle.load(file)
 except InconsistentVersionWarning as w:
    print(w.original_sklearn_version)
