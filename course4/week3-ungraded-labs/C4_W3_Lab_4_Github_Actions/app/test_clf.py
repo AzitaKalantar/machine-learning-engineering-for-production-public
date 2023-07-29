@@ -1,5 +1,5 @@
 import pickle
-from main import clf
+from main import *
 
 
 def test_accuracy():
